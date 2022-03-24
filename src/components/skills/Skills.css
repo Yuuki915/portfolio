@@ -1,0 +1,28 @@
+.skills {
+  color: #555;
+  position: relative;
+}
+.skills-container {
+  text-align: center;
+  margin: 0 20%;
+}
+
+.icon-container {
+  background-color: rgba(0, 0, 0, 0.1);
+  /* background-color: rgba(126, 45, 45, 0.2); */
+  border-radius: 5px;
+}
+.icons {
+  padding: 1rem;
+  color: aliceblue;
+}
+.icon {
+  padding: 3rem;
+}
+
+@media (max-width: 950px) {
+  .icon {
+    font-size: 3rem;
+    padding: 1rem;
+  }
+}

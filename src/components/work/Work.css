@@ -1,0 +1,90 @@
+.work a {
+  text-decoration: none;
+  color: #555;
+  cursor: default;
+}
+
+.img-and-sitename {
+  padding: 3rem 3rem 0;
+}
+.workimg-div {
+  position: relative;
+  overflow: hidden;
+}
+.workimg {
+  width: 17rem;
+  height: auto;
+  display: inline-block;
+  margin: auto 0;
+
+  display: inline-block;
+}
+.jump-to-pages {
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+}
+.visit-page,
+.view-code {
+  color: royalblue;
+  margin: 1rem;
+  padding: 0.5rem 1.5rem;
+  border: 1.3px solid rgba(65, 105, 225, 0.7);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.visit-page:hover,
+.view-code:hover {
+  color: #fff;
+  background-color: royalblue;
+}
+.sitetitle {
+  margin-top: 1rem;
+}
+
+.work {
+  padding: 1rem;
+}
+.work-container {
+  padding: 1.5rem;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.work-discription {
+  width: 60%;
+  background-color: rgba(255, 255, 255, 0.6);
+  /* padding: 1rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.lang-in-work {
+  line-height: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.text-in-work {
+  padding-top: 1rem;
+}
+
+@media (max-width: 950px) {
+  .workimg {
+    width: 100%;
+  }
+  .visit-page,
+  .view-code {
+    padding: 0.7rem 1.5rem;
+  }
+  .work-container {
+    flex-direction: column;
+  }
+  .work-discription {
+    margin: auto;
+    width: 100%;
+  }
+}

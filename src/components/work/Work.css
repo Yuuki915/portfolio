@@ -63,10 +63,10 @@
   justify-content: space-evenly;
 }
 .lang-in-work {
-  line-height: 2rem;
+  /* line-height: 2rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center; */
 }
 .text-in-work {
   padding-top: 1rem;

@@ -1,10 +1,16 @@
 .langs {
-  width: 4rem;
+  width: auto;
   margin: 0.3rem;
+
+  line-height: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .lang {
-  width: auto;
+  width: 4rem;
   background-color: rgba(240, 128, 128, 0.3);
   border-radius: 10px;
   font-size: 0.8rem;
+  margin: 0.2rem;
 }

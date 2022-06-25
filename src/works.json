@@ -1,15 +1,15 @@
 [
   {
     "title": "COUES",
-    "url": "",
-    "img": "",
+    "url": "http://coeustechs.com/",
+    "img": "/static/media/coues.1dbcad0e2a8481b1fd0f.png",
     "langs": ["HTML", "CSS", "JavaScript", "PHP"],
     "desc": "oauhgjbadsf, ;wuaga"
   },
   {
     "title": "Sharelog",
     "url": "https://sharelog.herokuapp.com/",
-    "img": "",
+    "img": "/static/media/sharelog.2099d02923982477d4f4.png",
     "langs": ["NodeJs", "Express", "MongoDB", "Mongoose", "ejs"],
     "desc": "oauhgjbadsf, ;wuaga"
   },

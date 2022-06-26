@@ -5,19 +5,23 @@
 }
 
 .img-and-sitename {
-  padding: 3rem 3rem 0;
+  padding: 3rem 3rem;
 }
 .workimg-div {
   position: relative;
   overflow: hidden;
+  width: 22rem;
+}
+.img-and-sitename:hover .workimg {
+  transform: scale(1.1);
 }
 .workimg {
-  width: 17rem;
+  width: 20rem;
   height: auto;
   display: inline-block;
   margin: auto 0;
-
   display: inline-block;
+  transition: 0.3s;
 }
 .jump-to-pages {
   display: flex;
@@ -27,7 +31,7 @@
 .visit-page,
 .view-code {
   color: royalblue;
-  margin: 1rem;
+  margin: 0 1rem;
   padding: 0.5rem 1.5rem;
   border: 1.3px solid rgba(65, 105, 225, 0.7);
   transition: 0.5s;
@@ -37,10 +41,11 @@
 .visit-page:hover,
 .view-code:hover {
   color: #fff;
-  background-color: royalblue;
+  background-color: rgb(116, 143, 222);
+  border: 1.3px solid rgba(116, 143, 222, 0.7);
 }
 .sitetitle {
-  margin-top: 1rem;
+  margin: 1rem 0;
 }
 
 .work {

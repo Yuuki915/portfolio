@@ -15,7 +15,7 @@ function About() {
         <div className="about-texts">
           <p className="text-head">A Front-end Developer based in Vancouver</p>
           <p className="text-body">
-            Hi, I am Yuuki Hori.
+            Hi, I am Yuki Hori.
             <br />
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
             ullamcorper egestas sapien vel posuere. Sed turpis dolor, auctor

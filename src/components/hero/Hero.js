@@ -11,7 +11,7 @@ const Hero = (props) => {
       ></div>
       <div className="bg-dark">
         <h1 className="siteTitle">
-          <p className="hero-name">Yuuki Hori</p>
+          <p className="hero-name">Yuki Hori</p>
           <p className="hero-sub">Front-end Developer</p>
         </h1>
       </div>

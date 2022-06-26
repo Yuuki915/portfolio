@@ -2,7 +2,7 @@
   {
     "title": "COUES",
     "url": "http://coeustechs.com/",
-    "img": "/static/media/coues.1dbcad0e2a8481b1fd0f.png",
+    "img": "/static/media/coueslogo.906f1ffa5d073db53f9b.png",
     "langs": ["HTML", "CSS", "JavaScript", "PHP"],
     "desc": "oauhgjbadsf, ;wuaga"
   },
@@ -15,8 +15,8 @@
   },
   {
     "title": "Totoro Quiz",
-    "url": "",
-    "img": "",
+    "url": "https://ghibliquiz.netlify.app",
+    "img": "/static/media/totoroquiz.5862576bb141f9955167.png",
     "langs": ["HTML", "CSS", "JavaScript", "PHP"],
     "desc": "oauhgjbadsf, ;wuaga"
   }

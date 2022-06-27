@@ -1,23 +1,26 @@
 [
   {
-    "title": "COUES",
-    "url": "http://coeustechs.com/",
-    "img": "/static/media/coueslogo.906f1ffa5d073db53f9b.png",
-    "langs": ["HTML", "CSS", "JavaScript", "PHP"],
-    "desc": "oauhgjbadsf, ;wuaga"
-  },
-  {
     "title": "Sharelog",
     "url": "https://sharelog.herokuapp.com/",
+    "git": "https://github.com/Yuuki915/sharelog",
     "img": "/static/media/sharelog.2099d02923982477d4f4.png",
     "langs": ["NodeJs", "Express", "MongoDB", "Mongoose", "ejs"],
-    "desc": "oauhgjbadsf, ;wuaga"
+    "desc": "After register or login, you can share your favorite places or shops and see other peaple's favorite."
+  },
+  {
+    "title": "COUES",
+    "url": "http://coeustechs.com/",
+    "git": "",
+    "img": "/static/media/coueslogo.906f1ffa5d073db53f9b.png",
+    "langs": ["HTML", "CSS", "JavaScript", "PHP"],
+    "desc": "A website for sports-related product company that is offering a training set of devices that can assist coaches or even replace them at many aspects when starting to learn to when advancing your game."
   },
   {
     "title": "Totoro Quiz",
     "url": "https://ghibliquiz.netlify.app",
+    "git": "https://github.com/Yuuki915/wmad/tree/main/WebDev-ll/0408_midproj/src",
     "img": "/static/media/totoroquiz.5862576bb141f9955167.png",
     "langs": ["HTML", "CSS", "JavaScript", "PHP"],
-    "desc": "oauhgjbadsf, ;wuaga"
+    "desc": "Check your knowledge of Totoro!"
   }
 ]

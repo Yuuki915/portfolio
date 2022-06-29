@@ -8,6 +8,9 @@
 img {
   vertical-align: bottom;
 }
+a {
+  text-decoration: none;
+}
 
 .app-container {
   height: 100vh;

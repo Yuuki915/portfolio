@@ -30,7 +30,7 @@
     rgba(214, 214, 214, 0.7)
   );
 
-  backdrop-filter: brightness(80%);
+  backdrop-filter: brightness(50%);
 }
 .siteTitle {
   min-width: 25rem;
@@ -42,14 +42,17 @@
   /* font-family: "Cinzel", serif; */
 
   position: absolute;
-  top: 45%;
+  /* top: 45%;
   right: 20%;
-  transform: translate(20%, -45%);
+  transform: translate(20%, -45%); */
+  top: 30%;
+  right: 20%;
+  transform: translate(20%, -30%);
 }
 .hero-name {
   font-size: 4rem;
   font-weight: 400;
-  letter-spacing: 2px;
+  letter-spacing: 5px;
   text-align: center;
 }
 .hero-sub {
@@ -57,4 +60,24 @@
   font-weight: 400;
   letter-spacing: 3px;
   text-align: center;
+}
+
+.links {
+  position: absolute;
+  bottom: 10%;
+  right: 20%;
+  transform: translate(20%, 10%);
+}
+
+.link {
+  width: 20rem;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  margin: 1rem;
+  padding: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 0 0 7px rgb(255 255 255 / 50%);
+  font-size: 2rem;
+  letter-spacing: 2px;
 }

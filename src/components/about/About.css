@@ -49,6 +49,10 @@
   padding: 0.5rem;
 }
 
+.about .footer {
+  color: #4a4947;
+}
+
 @media (max-width: 900px) {
   .about-texts {
     padding: 3rem 5rem;

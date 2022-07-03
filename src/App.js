@@ -32,20 +32,8 @@ function App() {
       <div className="app-container" onScroll={getScrollVal}>
         <Hero scalePer={imgScalePer} />
 
-        <div className="hidden-container">
-          <div
-            className="main"
-            style={
-              {
-                // boxShadow:
-                //   "0 0 15px 15px rgba(255, 255, 255, 0.7), inset rgb(255 255 255 / 0.7) 0px 0px 5px 20px",
-                // backgroundPosition: "50% 50%",
-                // "@media (minWidth: 950px)": {
-                //   backgroundPosition: `30% ${30 + (bgScrollVal + 1) / 10}%`,
-                // },
-              }
-            }
-          >
+        {/* <div className="hidden-container">
+          <div className="main">
             <div className="decoline decoline1"></div>
             <div className="decoline decoline2"></div>
 
@@ -54,14 +42,10 @@ function App() {
 
               <Works />
 
-              <Skills />
-
               <Contact />
-
-              <Footer />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

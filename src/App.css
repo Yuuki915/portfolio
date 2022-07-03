@@ -1,15 +1,16 @@
 * {
-  /* font-family: "Parisienne", cursive; */
-  /* font-family: "Roboto", sans-serif; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 img {
   vertical-align: bottom;
+  vertical-align: baseline;
 }
 a {
   text-decoration: none;
+  color: #4a4947;
 }
 
 .app-container {
@@ -17,7 +18,7 @@ a {
   width: 100vw;
   overflow: scroll;
 }
-.hidden-container {
+/* .hidden-container {
   overflow-x: hidden;
 }
 .main {
@@ -26,7 +27,6 @@ a {
   font-weight: 700;
 
   background-color: #fff;
-  /* background-image: url("./components/imgs/about.jpg"); */
   background-position: 50% 50%;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -69,4 +69,4 @@ a {
     background-image: none;
     background-color: #fff;
   }
-}
+} */

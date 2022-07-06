@@ -1,20 +1,17 @@
 import React from "react";
 import Work from "./Work";
-import H1s from "../H1s";
-// import couesImg from "../imgs/work.jpg";
 import worksData from "../../works.json";
 
 import "./Works.css";
+import Header from "../header/Header";
+import Footer from "../footer/Footer";
 
 function Works() {
-  const works = {
-    h1: "Works",
-  };
-
   return (
     <div className="works">
+      <Header />
       <div className="works-container">
-        <H1s h1={works.h1} />
+        <h1>Works</h1>
 
         <div className="slide">
           {worksData.map((work) => (
@@ -23,12 +20,14 @@ function Works() {
               title={work.title}
               src={work.img}
               url={work.url}
+              git={work.git}
               desc={work.desc}
               langs={work.langs}
             />
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

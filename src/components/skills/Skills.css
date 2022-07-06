@@ -25,6 +25,7 @@
   justify-content: right;
 }
 .skills-icon {
+  color: #fff;
   width: 3rem;
   height: 3rem;
   display: inline-block;

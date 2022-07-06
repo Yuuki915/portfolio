@@ -10,14 +10,6 @@ function Work(props) {
           <div className="workimg-div">
             <img className="workimg" src={props.src} alt="" />
             <h2 className="sitetitle">{props.title}</h2>
-            <div className="jump-to-pages">
-              <a href={props.url}>
-                <div className="visit-page">Visit</div>
-              </a>
-              <a href="/">
-                <div className="view-code">Code</div>
-              </a>
-            </div>
           </div>
         </div>
 
@@ -25,6 +17,14 @@ function Work(props) {
           <Lang langs={props.langs} />
           <p className="text-in-work">{props.desc}</p>
         </div>
+      </div>
+      <div className="jump-to-pages">
+        <a href={props.url}>
+          <div className="visit-page">Visit</div>
+        </a>
+        <a href={props.git}>
+          <div className="view-code">Code</div>
+        </a>
       </div>
     </div>
   );

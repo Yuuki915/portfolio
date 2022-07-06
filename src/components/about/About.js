@@ -1,31 +1,35 @@
 import React from "react";
-import H1s from "../H1s";
+import Footer from "../footer/Footer";
+// import H1s from "../H1s";
+import Header from "../header/Header";
+import Skills from "../skills/Skills";
 
 import "./About.css";
 
 function About() {
-  const about = {
-    h1: "About",
-  };
   return (
     <div className="about">
-      <div className="about-container">
-        <H1s h1={about.h1} />
+      <Header />
 
+      <div className="title-in-about">About Me & My Skills</div>
+      <div className="sideblur1"></div>
+      <div className="sideblur2"></div>
+
+      <div className="about-container">
         <div className="about-texts">
-          <p className="text-head">A Front-end Developer based in Vancouver</p>
+          <h1>About</h1>
+
           <p className="text-body">
-            Hi, I am Yuki Hori.
-            <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-            ullamcorper egestas sapien vel posuere. Sed turpis dolor, auctor
-            blandit lorem ut, vestibulum tincidunt nisl. Integer quis augue sit
-            amet arcu ultrices lobortis. Sed in lacus scelerisque, placerat
-            magna sed, dapibus nisl. In consectetur tellus eu pellentesque
-            dapibus.
+            <h2>Hi, I am Yuki Hori.</h2>A front-end developer with extensive
+            background in education and who loves web development with web
+            design.
           </p>
         </div>
       </div>
+
+      <Skills />
+
+      <Footer />
     </div>
   );
 }

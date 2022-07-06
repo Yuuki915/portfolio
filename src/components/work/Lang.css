@@ -8,9 +8,11 @@
   justify-content: center;
 }
 .lang {
-  width: 4rem;
-  background-color: rgba(240, 128, 128, 0.3);
+  color: #fff;
+  background-color: #ec5a08;
   border-radius: 10px;
   font-size: 0.8rem;
+  letter-spacing: 1px;
   margin: 0.2rem;
+  padding: 0 1rem;
 }

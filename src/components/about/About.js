@@ -12,8 +12,6 @@ function About() {
       <Header />
 
       <div className="title-in-about">About Me & My Skills</div>
-      <div className="sideblur1"></div>
-      <div className="sideblur2"></div>
 
       <div className="about-container">
         <div className="about-texts">

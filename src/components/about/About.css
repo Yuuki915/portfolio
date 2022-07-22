@@ -64,22 +64,6 @@
     padding: 0 7rem;
   }
   .title-in-about {
-    margin-left: 10rem;
-  }
-
-  .sideblur1,
-  .sideblur2 {
-    width: 5rem;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(7px);
-  }
-  .sideblur1 {
-    left: 0;
-  }
-  .sideblur2 {
-    right: 0;
+    margin-left: 7rem;
   }
 }

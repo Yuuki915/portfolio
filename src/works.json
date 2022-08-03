@@ -20,7 +20,7 @@
     "url": "https://ghibliquiz.netlify.app",
     "git": "https://github.com/Yuuki915/wmad/tree/main/WebDev-ll/0408_midproj/src",
     "img": "/static/media/totoroquiz.5862576bb141f9955167.png",
-    "langs": ["HTML", "CSS", "JavaScript", "PHP"],
+    "langs": ["HTML", "CSS", "JavaScript", "React.js"],
     "desc": "Check your knowledge of Totoro!"
   }
 ]

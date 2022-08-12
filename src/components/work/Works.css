@@ -31,6 +31,7 @@
     flex-direction: column;
   }
   .work-container {
+    width: 100%;
     flex-direction: row;
     margin: 0 auto;
   }
@@ -45,19 +46,22 @@
   }
 
   .img-and-sitename {
-    padding-top: 3rem;
     padding-bottom: 0;
   }
   .work-discription {
     padding: 0;
   }
   .jump-to-pages {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
   }
   .workimg-div {
     width: auto;
   }
   .workimg {
     width: 15rem;
+  }
+
+  .slide {
+    margin: 0;
   }
 }

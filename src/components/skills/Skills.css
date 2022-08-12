@@ -34,7 +34,7 @@
 
 @media (max-width: 900px) {
   .skills {
-    padding: 5rem;
+    padding: 6rem 1rem;
   }
   .skills-icons {
     justify-content: center;

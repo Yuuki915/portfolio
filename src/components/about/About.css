@@ -55,7 +55,12 @@
 
 @media (max-width: 900px) {
   .about-texts {
-    padding: 3rem 5rem;
+    margin-top: 60px;
+    padding: 3rem 3rem 6rem;
+  }
+  .title-in-about {
+    padding: 1rem 4rem;
+    top: 36%;
   }
 }
 

@@ -81,6 +81,12 @@
   .workimg {
     width: 100%;
   }
+  .img-and-sitename {
+    padding: 1rem 0;
+  }
+  .sitetitle {
+    margin: 1rem 0;
+  }
   .visit-page,
   .view-code {
     padding: 0.7rem 1.5rem;
@@ -91,5 +97,9 @@
   .work-discription {
     margin: auto;
     width: 100%;
+  }
+
+  .text-in-work {
+    padding: 1rem 0;
   }
 }

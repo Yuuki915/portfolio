@@ -160,5 +160,6 @@
   .hero4 {
     order: 1;
     background-color: #b17457;
+    padding: 2rem 0;
   }
 }

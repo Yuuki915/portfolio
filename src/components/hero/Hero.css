@@ -140,7 +140,7 @@
   .hero3,
   .hero4 {
     width: 100%;
-    height: 25%;
+    height: 40%;
   }
   .hero1 {
     order: 2;
@@ -160,6 +160,15 @@
   .hero4 {
     order: 1;
     background-color: #b17457;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+  }
+  .hero-welcome {
+    width: 100%;
+    height: 100%;
     padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

@@ -49,9 +49,11 @@ const Hero = (props) => {
       </div>
 
       <div className="hero4">
-        Welcome <br />
-        to <br />
-        Yuki's Website
+        <div className="hero-welcome">
+          Welcome <br />
+          to <br />
+          Yuki's Website
+        </div>
       </div>
 
       <Footer />

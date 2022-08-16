@@ -120,12 +120,6 @@
 }
 
 @media (max-width: 900px) {
-  /* .hero-wakru {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-  } */
-
   .hero-line {
     width: 93%;
     height: 93%;
@@ -140,7 +134,7 @@
   .hero3,
   .hero4 {
     width: 100%;
-    height: 40%;
+    height: 30%;
   }
   .hero1 {
     order: 2;

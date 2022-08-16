@@ -17,6 +17,7 @@ import {
   SiRedux,
   SiSass,
   SiTypescript,
+  SiGraphql,
 } from "react-icons/si";
 import { DiNodejs } from "react-icons/di";
 
@@ -38,6 +39,7 @@ export default function SkillsIcons() {
       <SiPython className="skills-icon" />
       <SiMysql className="skills-icon" />
       <SiJava className="skills-icon" />
+      <SiGraphql className="skills-icon" />
       <SiGit className="skills-icon" />
       <SiGithub className="skills-icon" />
       <SiHeroku className="skills-icon" />

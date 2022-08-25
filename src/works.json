@@ -5,13 +5,11 @@
     "git": "https://github.com/Yuuki915/sl_frontend",
     "img": "/static/media/sharelog.2099d02923982477d4f4.png",
     "langs": [
-      "NodeJs",
-      "Express",
-      "MongoDB",
-      "Mongoose",
       "React",
-      "GraphQL",
-      "Apollo",
+      "NodeJs",
+      "MongoDB",
+      "Express",
+      "Mongoose",
       "axios",
       "JWT"
     ],

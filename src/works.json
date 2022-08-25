@@ -1,11 +1,21 @@
 [
   {
     "title": "Sharelog",
-    "url": "https://sharelog.herokuapp.com/",
-    "git": "https://github.com/Yuuki915/sharelog",
+    "url": "https://sharelog.pages.dev/",
+    "git": "https://github.com/Yuuki915/sl_frontend",
     "img": "/static/media/sharelog.2099d02923982477d4f4.png",
-    "langs": ["NodeJs", "Express", "MongoDB", "Mongoose", "ejs"],
-    "desc": "After register or login, you can share your favorite places or shops and see other peaple's favorite."
+    "langs": [
+      "NodeJs",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+      "React",
+      "GraphQL",
+      "Apollo",
+      "axios",
+      "JWT"
+    ],
+    "desc": "Shere your favorite whatever you love to everyone!! After register or login, you can share your favorite places or shops and see other peaple's favorite."
   },
   {
     "title": "COUES",

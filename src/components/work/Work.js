@@ -1,7 +1,8 @@
 import React from "react";
 import Lang from "./Lang";
 import "./Work.css";
-// import img from "../imgs/coues.png";
+// import img from "../imgs/portforio.png";
+
 function Work(props) {
   return (
     <div className="work">

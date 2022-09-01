@@ -5,8 +5,8 @@ export default function Lang(props) {
   const langs = props.langs;
   return (
     <div className="langs">
-      {langs.map((lang) => (
-        <div className="lang" key={lang.key}>
+      {langs.map((lang, key) => (
+        <div className="lang" key={key}>
           {lang}
         </div>
       ))}

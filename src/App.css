@@ -6,15 +6,15 @@
 
 img {
   vertical-align: bottom;
-  vertical-align: baseline;
 }
 a {
   text-decoration: none;
   color: #4a4947;
 }
 
+.App {
+  height: auto;
+}
 .app-container {
-  height: 100vh;
   width: 100vw;
-  overflow: scroll;
 }

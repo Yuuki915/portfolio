@@ -1,20 +1,37 @@
 .header {
   width: 100vw;
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
+  align-items: center;
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(5px);
   z-index: 999;
-  padding-right: 5rem;
+  padding: 0 5rem;
+  color: #4a4947;
 
   position: fixed;
   top: 0;
   left: 0;
 }
+.header-name {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
 
+.header-links {
+  display: flex;
+}
 .header-link {
   margin: 1rem;
   cursor: pointer;
+  transition: 0.1s;
+}
+.active {
+  border-bottom: 3px solid lightcoral;
+}
+.header-link:hover {
+  border-bottom: 3px solid lightcoral;
 }
 
 @media (max-width: 900px) {

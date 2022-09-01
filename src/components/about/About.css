@@ -48,6 +48,9 @@
   line-height: 1.4rem;
   padding: 0.5rem;
 }
+.text-body h2 {
+  padding-bottom: 5px;
+}
 
 .about .footer {
   color: #4a4947;

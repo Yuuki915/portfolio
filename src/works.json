@@ -16,6 +16,22 @@
     "desc": "Shere your favorite whatever you love to everyone!! After register or login, you can share your favorite places or shops and see other peaple's favorite."
   },
   {
+    "title": "aniSearch",
+    "url": "",
+    "git": "",
+    "img": "/static/media/aniSearch.c8981abd6153bf76e2f9.png",
+    "langs": [
+      "React",
+      "NodeJs",
+      "MongoDB",
+      "Express",
+      "Mongoose",
+      "axios",
+      "GraphQL"
+    ],
+    "desc": "Coming soon! Search and create your own wish list Anime. Using GraphQL."
+  },
+  {
     "title": "COUES",
     "url": "http://coeustechs.com/",
     "git": "",

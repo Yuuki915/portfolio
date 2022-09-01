@@ -2,6 +2,8 @@
   height: 100vh;
   color: #aa988a;
   font-family: "Titillium Web", sans-serif;
+  position: sticky;
+  top: 0;
   position: relative;
 }
 

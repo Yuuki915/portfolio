@@ -1,14 +1,14 @@
 import React from "react";
 import { SiGithub, SiLinkedin } from "react-icons/si";
 import Footer from "../footer/Footer";
-import Header from "../header/Header";
+// import Header from "../header/Header";
 
 import "./Contact.css";
 
 export default function Contact() {
   return (
     <div className="contact">
-      <Header />
+      {/* <Header /> */}
       <div className="contact-container">
         <h1>Contact</h1>
         <div className="contact-info">

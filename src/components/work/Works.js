@@ -9,7 +9,7 @@ import Footer from "../footer/Footer";
 function Works() {
   return (
     <div className="works">
-      <Header />
+      {/* <Header /> */}
       <div className="works-container">
         <h1>Works</h1>
 
@@ -27,7 +27,7 @@ function Works() {
           ))}
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

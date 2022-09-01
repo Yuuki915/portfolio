@@ -9,7 +9,7 @@ export default function TopAnimation() {
   const pros1 = "Motivated";
   const pros1Arr = [];
   const pros1Alph = pros1.split("");
-  
+
   pros1Alph.map((item, index) => {
     if (item === " ") {
       return pros1Arr.push(
@@ -108,7 +108,7 @@ export default function TopAnimation() {
   });
 
   return (
-    <div className="ani-wrapper">
+    <div className="ani-wrapper" id="hero">
       <div className="top-first">
         <div className="img-div">
           <img src={columUmb} alt="" className="img" />

@@ -2,7 +2,7 @@
 .ani-wrapper {
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
 
   position: relative;
 }
@@ -12,6 +12,7 @@
 /* .top-first, */
 .top-second,
 .top-third {
+  display: block;
   position: absolute;
   top: 0;
   right: 0;

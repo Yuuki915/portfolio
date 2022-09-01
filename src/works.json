@@ -15,6 +15,23 @@
     ],
     "desc": "Shere your favorite whatever you love to everyone!! After register or login, you can share your favorite places or shops and see other peaple's favorite."
   },
+
+  {
+    "title": "COUES",
+    "url": "http://coeustechs.com/",
+    "git": "",
+    "img": "/static/media/coues.1dbcad0e2a8481b1fd0f.png",
+    "langs": ["HTML", "CSS", "JavaScript", "PHP"],
+    "desc": "A website for sports-related product company that is offering a training set of devices that can assist coaches or even replace them at many aspects when starting to learn to when advancing your game."
+  },
+  {
+    "title": "Totoro Quiz",
+    "url": "https://ghibliquiz.netlify.app",
+    "git": "https://github.com/Yuuki915/wmad/tree/main/WebDev-ll/0408_midproj/src",
+    "img": "/static/media/totoroquiz.5862576bb141f9955167.png",
+    "langs": ["HTML", "CSS", "JavaScript", "React.js"],
+    "desc": "Check your knowledge of Totoro!"
+  },
   {
     "title": "aniSearch",
     "url": "",
@@ -32,19 +49,11 @@
     "desc": "Coming soon! Search and create your own wish list Anime. Using GraphQL."
   },
   {
-    "title": "COUES",
-    "url": "http://coeustechs.com/",
-    "git": "",
-    "img": "/static/media/coueslogo.906f1ffa5d073db53f9b.png",
-    "langs": ["HTML", "CSS", "JavaScript", "PHP"],
-    "desc": "A website for sports-related product company that is offering a training set of devices that can assist coaches or even replace them at many aspects when starting to learn to when advancing your game."
-  },
-  {
-    "title": "Totoro Quiz",
-    "url": "https://ghibliquiz.netlify.app",
-    "git": "https://github.com/Yuuki915/wmad/tree/main/WebDev-ll/0408_midproj/src",
-    "img": "/static/media/totoroquiz.5862576bb141f9955167.png",
-    "langs": ["HTML", "CSS", "JavaScript", "React.js"],
-    "desc": "Check your knowledge of Totoro!"
+    "title": "Portforio",
+    "url": "https://yukihori.pages.dev/works",
+    "git": "https://github.com/Yuuki915/portfolio",
+    "img": "/static/media/portforio.07c8ce894bfc9fcbe44a.png",
+    "langs": ["React"],
+    "desc": "My portfolio"
   }
 ]

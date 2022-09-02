@@ -27,6 +27,8 @@
 }
 .scroll-text {
   color: #fff;
+  text-shadow: 0 0 30px #555, 0 0 30px #555;
+
   -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
   margin: 0 auto;

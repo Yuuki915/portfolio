@@ -15,9 +15,6 @@
 }
 
 @media (max-width: 900px) {
-  /* .footer {
-    position: none;
-  } */
   .footer p {
     height: 2.5rem;
   }

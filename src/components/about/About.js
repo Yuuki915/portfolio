@@ -19,7 +19,6 @@ function About() {
               A front-end developer with extensive background in education and
               who loves web development with web design.
             </p>
-            <p>Motivated, disciplined, </p>
           </div>
         </div>
       </div>

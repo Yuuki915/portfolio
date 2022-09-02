@@ -109,6 +109,10 @@ export default function TopAnimation() {
 
   return (
     <div className="ani-wrapper" id="hero">
+      <div className="scroll-icon">
+        <div className="scroll-text">scroll</div>
+        <div className="scroll-bar"></div>
+      </div>
       <div className="top-first">
         <div className="img-div">
           <img src={columUmb} alt="" className="img" />

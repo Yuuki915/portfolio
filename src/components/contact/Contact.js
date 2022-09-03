@@ -3,7 +3,7 @@ import { SiGithub, SiLinkedin } from "react-icons/si";
 
 import "./Contact.css";
 
-export default function Contact() {
+const Contact = () => {
   return (
     <section className="contact" id="contact">
       <div className="contact-container">
@@ -17,7 +17,7 @@ export default function Contact() {
           <div className="email">
             <a href="mailto:aso091335@gmail.com">aso091335@gmail.com</a>
           </div>
-          
+
           <div className="contact-icons">
             <a href="https://www.linkedin.com/in/yuki-hori-85a51421b/">
               <SiLinkedin className="contact-icon" />
@@ -27,8 +27,8 @@ export default function Contact() {
             </a>
           </div>
         </div>
-
       </div>
     </section>
   );
-}
+};
+export default Contact;

@@ -4,7 +4,7 @@ import sunflower from "../imgs/sunflower.jpg";
 import columUmb from "../imgs/columUmb.jpg";
 import townview from "../imgs/townview.jpg";
 
-export default function TopAnimation() {
+const TopAnimation = () => {
   //   ----- first
   const pros1 = "Motivated";
   const pros1Arr = [];
@@ -142,4 +142,6 @@ export default function TopAnimation() {
       </div>
     </div>
   );
-}
+};
+
+export default TopAnimation;

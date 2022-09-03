@@ -2,8 +2,7 @@ import React from "react";
 
 import "./Skills.css";
 import SkillsIcons from "./SkillsIcons";
-
-export default function Skills() {
+const Skills = () => {
   return (
     <div className="skills">
       <h1>Skills</h1>
@@ -13,4 +12,5 @@ export default function Skills() {
       </div>
     </div>
   );
-}
+};
+export default Skills;

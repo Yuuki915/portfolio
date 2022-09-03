@@ -1,8 +1,7 @@
 import React from "react";
 import "./Lang.css";
 
-export default function Lang(props) {
-  const langs = props.langs;
+const Lang = ({ langs }) => {
   return (
     <div className="langs">
       {langs.map((lang, key) => (
@@ -12,4 +11,5 @@ export default function Lang(props) {
       ))}
     </div>
   );
-}
+};
+export default Lang;

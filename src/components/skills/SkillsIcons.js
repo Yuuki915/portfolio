@@ -21,7 +21,7 @@ import {
 } from "react-icons/si";
 import { DiNodejs } from "react-icons/di";
 
-export default function SkillsIcons() {
+const SkillsIcons = () => {
   return (
     <div className="skills-icons">
       <SiHtml5 className="skills-icon" />
@@ -45,4 +45,5 @@ export default function SkillsIcons() {
       <SiHeroku className="skills-icon" />
     </div>
   );
-}
+};
+export default SkillsIcons;

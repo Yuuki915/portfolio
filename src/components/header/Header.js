@@ -3,7 +3,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 import "./Header.css";
 
-export default function Header({ isVisible }) {
+const Header = ({ isVisible }) => {
   return (
     <div className={isVisible ? "header visivle" : "header"}>
       <div className="header-name" onClick={() => scroll.scrollToTop()}>
@@ -23,4 +23,5 @@ export default function Header({ isVisible }) {
       </div>
     </div>
   );
-}
+};
+export default Header;

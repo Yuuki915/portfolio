@@ -3,10 +3,9 @@ import Skills from "../skills/Skills";
 
 import "./About.css";
 
-function About() {
+const About = () => {
   return (
     <section className="about" id="about">
-
       <div className="title-in-about">About Me &amp; My Skills</div>
 
       <div className="about-container">
@@ -24,9 +23,8 @@ function About() {
       </div>
 
       <Skills />
-
     </section>
   );
-}
+};
 
 export default About;

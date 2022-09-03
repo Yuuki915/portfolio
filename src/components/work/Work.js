@@ -3,7 +3,7 @@ import Lang from "./Lang";
 import "./Work.css";
 // import img from "../imgs/portforio.png";
 
-function Work(props) {
+const Work = (props) => {
   return (
     <div className="work">
       <div className="work-container">
@@ -29,6 +29,6 @@ function Work(props) {
       </div>
     </div>
   );
-}
+};
 
 export default Work;

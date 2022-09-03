@@ -3,7 +3,7 @@ import Work from "./Work";
 import worksData from "../../works.json";
 import "./Works.css";
 
-function Works() {
+const Works = () => {
   return (
     <section className="works" id="works">
       <div className="works-container">
@@ -25,6 +25,6 @@ function Works() {
       </div>
     </section>
   );
-}
+};
 
 export default Works;

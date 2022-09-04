@@ -32,6 +32,15 @@
     "langs": ["HTML", "CSS", "JavaScript", "React.js"],
     "desc": "Check your knowledge of Totoro!"
   },
+
+  {
+    "title": "Portforio",
+    "url": "https://yukihori.pages.dev/works",
+    "git": "https://github.com/Yuuki915/portfolio",
+    "img": "/static/media/portforio.07c8ce894bfc9fcbe44a.png",
+    "langs": ["React"],
+    "desc": "My portfolio"
+  },
   {
     "title": "aniSearch",
     "url": "",
@@ -47,13 +56,5 @@
       "GraphQL"
     ],
     "desc": "Coming soon! Search and create your own wish list Anime. Using GraphQL."
-  },
-  {
-    "title": "Portforio",
-    "url": "https://yukihori.pages.dev/works",
-    "git": "https://github.com/Yuuki915/portfolio",
-    "img": "/static/media/portforio.07c8ce894bfc9fcbe44a.png",
-    "langs": ["React"],
-    "desc": "My portfolio"
   }
 ]

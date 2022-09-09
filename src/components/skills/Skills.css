@@ -8,7 +8,7 @@
   margin-left: auto;
   padding-right: 7rem;
   text-align: right;
-  
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,5 +45,11 @@
   }
   .skills-icon {
     margin: 0.7rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .skills-container {
+    padding-right: 10rem;
   }
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import Lang from "./Lang";
 import "./Work.css";
-// import img from "public/imgs/portforio.png";
 
 const Work = (props) => {
   return (

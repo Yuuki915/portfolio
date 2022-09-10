@@ -27,7 +27,7 @@
 }
 .about-texts {
   height: 100%;
-  max-width: 700px;
+  max-width: 750px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -74,7 +74,7 @@
 
 @media (min-width: 1200px) {
   .about-container {
-    padding: 0 7rem;
+    padding: 0 5rem;
   }
   .title-in-about {
     margin-left: 7rem;

@@ -19,7 +19,7 @@ const Contact = () => {
           </div>
 
           <div className="contact-icons">
-            <a href="https://www.linkedin.com/in/yuki-hori-85a51421b/">
+            <a href="https://www.linkedin.com/in/yuukihori">
               <SiLinkedin className="contact-icon" />
             </a>
             <a href="https://github.com/Yuuki915">

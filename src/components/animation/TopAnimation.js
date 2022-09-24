@@ -32,7 +32,7 @@ const TopAnimation = () => {
   });
 
   //   ----- second
-  const pros2 = "Challenging";
+  const pros2 = "Challenge";
   const pros2Arr = [];
   const pros2Alph = pros2.split("");
   pros2Alph.map((item, index) => {

@@ -16,8 +16,8 @@ const About = () => {
             <h2>Hi, I am Yuki Hori.</h2>
             <p>
               A web developer with extensive background in education and a
-              hardworker and a challenger who is motivated, making attempts and
-              loves web development with web design.
+              hardworker who is motivated, challenging and loves web development
+              with web design.
             </p>
           </div>
         </div>

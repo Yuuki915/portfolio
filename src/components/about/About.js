@@ -15,9 +15,9 @@ const About = () => {
           <div className="text-body">
             <h2>Hi, I am Yuki Hori.</h2>
             <p>
-              A front-end developer with extensive background in education and
-              who is motivated, challenging and loves web development with web
-              design.
+              A web developer with extensive background in education and a
+              hardworker and a challenger who is motivated, making attempts and
+              loves web development with web design.
             </p>
           </div>
         </div>

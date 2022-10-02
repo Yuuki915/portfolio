@@ -24,25 +24,82 @@ import { DiNodejs } from "react-icons/di";
 const SkillsIcons = () => {
   return (
     <div className="skills-icons">
-      <SiHtml5 className="skills-icon" />
-      <SiCss3 className="skills-icon" />
-      <SiJavascript className="skills-icon" />
-      <SiReact className="skills-icon" />
-      <SiRedux className="skills-icon" />
-      <SiSass className="skills-icon" />
-      <DiNodejs className="skills-icon" />
-      <SiPhp className="skills-icon" />
-      <SiMongodb className="skills-icon" />
-      <SiExpress className="skills-icon" />
-      <SiTypescript className="skills-icon" />
-      <SiBootstrap className="skills-icon" />
-      <SiPython className="skills-icon" />
-      <SiMysql className="skills-icon" />
-      <SiJava className="skills-icon" />
-      <SiGraphql className="skills-icon" />
-      <SiGit className="skills-icon" />
-      <SiGithub className="skills-icon" />
-      <SiHeroku className="skills-icon" />
+      <div className="icon-container">
+        <SiHtml5 className="skills-icon" />
+        <p className="icon-name">HTML</p>
+      </div>
+      <div className="icon-container">
+        <SiCss3 className="skills-icon" />
+        <p className="icon-name">CSS</p>
+      </div>
+      <div className="icon-container">
+        <SiJavascript className="skills-icon" />
+        <p className="icon-name">JavaScript</p>
+      </div>
+      <div className="icon-container">
+        <SiReact className="skills-icon" />
+        <p className="icon-name">React.js</p>
+      </div>
+      <div className="icon-container">
+        <SiRedux className="skills-icon" />
+        <p className="icon-name">Redux</p>
+      </div>
+      <div className="icon-container">
+        <SiSass className="skills-icon" />
+        <p className="icon-name">Sass</p>
+      </div>
+      <div className="icon-container">
+        <DiNodejs className="skills-icon" />
+        <p className="icon-name">Node.js</p>
+      </div>
+      <div className="icon-container">
+        <SiPhp className="skills-icon" />
+        <p className="icon-name">PHP</p>
+      </div>
+      <div className="icon-container">
+        <SiMongodb className="skills-icon" />
+        <p className="icon-name">MongoDB</p>
+      </div>
+      <div className="icon-container">
+        <SiExpress className="skills-icon" />
+        <p className="icon-name">Express</p>
+      </div>
+      <div className="icon-container">
+        <SiTypescript className="skills-icon" />
+        <p className="icon-name">TypeScript</p>
+      </div>
+      <div className="icon-container">
+        <SiBootstrap className="skills-icon" />
+        <p className="icon-name">Bootstrap</p>
+      </div>
+      <div className="icon-container">
+        <SiPython className="skills-icon" />
+        <p className="icon-name">Python</p>
+      </div>
+      <div className="icon-container">
+        <SiMysql className="skills-icon" />
+        <p className="icon-name">MySQL</p>
+      </div>
+      <div className="icon-container">
+        <SiJava className="skills-icon" />
+        <p className="icon-name">Java</p>
+      </div>
+      <div className="icon-container">
+        <SiGraphql className="skills-icon" />
+        <p className="icon-name">GraphQL</p>
+      </div>
+      <div className="icon-container">
+        <SiGit className="skills-icon" />
+        <p className="icon-name">Git</p>
+      </div>
+      <div className="icon-container">
+        <SiGithub className="skills-icon" />
+        <p className="icon-name">GitHub</p>
+      </div>
+      <div className="icon-container">
+        <SiHeroku className="skills-icon" />
+        <p className="icon-name">Heroku</p>
+      </div>
     </div>
   );
 };

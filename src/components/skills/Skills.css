@@ -1,12 +1,11 @@
 .skills {
   width: 100vw;
-  min-height: 60%;
   color: #fff;
   background-color: #aa988a;
 
   margin-right: 0;
   margin-left: auto;
-  padding-right: 7rem;
+  padding: 3rem 7rem 3rem 0;
   text-align: right;
 
   display: flex;
@@ -33,18 +32,22 @@
   width: 3rem;
   height: 3rem;
   display: inline-block;
-  margin: 1.5rem;
+}
+.icon-container {
+  margin: 1rem;
+  text-align: center;
+}
+.icon-name {
+  font-size: 13px;
+  letter-spacing: 2px;
 }
 
 @media (max-width: 900px) {
   .skills {
-    padding: 6rem 0;
+    padding: 3rem 0;
   }
   .skills-icons {
     justify-content: center;
-  }
-  .skills-icon {
-    margin: 0.7rem;
   }
 }
 

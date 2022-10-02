@@ -7,9 +7,9 @@ const Work = (props) => {
     <div className="work">
       <div className="work-container">
         <div className="img-and-sitename">
+          <h2 className="sitetitle">{props.title}</h2>
           <div className="workimg-div">
             <img className="workimg" src={props.src} alt="" />
-            <h2 className="sitetitle">{props.title}</h2>
           </div>
         </div>
 

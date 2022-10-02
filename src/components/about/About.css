@@ -7,7 +7,7 @@
 
 .title-in-about {
   position: absolute;
-  top: 35%;
+  top: 32%;
   left: 0;
 
   color: #fff;
@@ -23,7 +23,7 @@
 .about-container {
   width: 100%;
   background-color: #fff;
-  padding: 3rem 0;
+  padding: 0 0 3rem;
 }
 .about-texts {
   height: 100%;
@@ -60,12 +60,15 @@
   .about {
     height: auto;
   }
+  .about-container {
+    padding: 3rem 0;
+  }
   .about-texts {
     padding: 0 3rem;
   }
   .title-in-about {
     padding: 1rem 4rem;
-    top: 29%;
+    top: 30%;
   }
   .text-body {
     padding-left: 1rem;
@@ -74,9 +77,10 @@
 
 @media (min-width: 1200px) {
   .about-container {
-    padding: 0 5rem;
+    padding: 0 0 3rem;
   }
   .title-in-about {
     margin-left: 7rem;
+    top: 30%;
   }
 }

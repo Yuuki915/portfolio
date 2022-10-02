@@ -47,6 +47,7 @@
 .sitetitle {
   margin: 2rem 0;
   letter-spacing: 1px;
+  text-align: left;
 }
 
 .work {
@@ -79,10 +80,11 @@
     width: 100%;
   }
   .img-and-sitename {
-    padding: 1rem 0;
+    padding: 1rem;
   }
   .sitetitle {
     margin: 1rem 0;
+    text-align: center;
   }
   .visit-page,
   .view-code {

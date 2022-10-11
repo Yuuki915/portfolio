@@ -2,27 +2,27 @@ import React from "react";
 import Lang from "./Lang";
 import "./Work.css";
 
-const Work = (props) => {
+const Work = ({ title, src, langs, desc, url, git }) => {
   return (
     <div className="work">
       <div className="work-container">
         <div className="img-and-sitename">
-          <h2 className="sitetitle">{props.title}</h2>
+          <h2 className="sitetitle">{title}</h2>
           <div className="workimg-div">
-            <img className="workimg" src={props.src} alt="" />
+            <img className="workimg" src={src} alt="" />
           </div>
         </div>
 
         <div className="work-discription">
-          <Lang langs={props.langs} />
-          <p className="text-in-work">{props.desc}</p>
+          <Lang langs={langs} />
+          <p className="text-in-work">{desc}</p>
         </div>
       </div>
       <div className="jump-to-pages">
-        <a href={props.url}>
+        <a href={url}>
           <div className="visit-page">Visit</div>
         </a>
-        <a href={props.git}>
+        <a href={git}>
           <div className="view-code">Code</div>
         </a>
       </div>

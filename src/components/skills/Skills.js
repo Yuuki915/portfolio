@@ -5,11 +5,9 @@ import SkillsIcons from "./SkillsIcons";
 const Skills = () => {
   return (
     <div className="skills">
-      <h1>Skills</h1>
+      <h1 className="skills-h1">Skills</h1>
 
-      <div className="icon-container">
-        <SkillsIcons />
-      </div>
+      <SkillsIcons />
     </div>
   );
 };

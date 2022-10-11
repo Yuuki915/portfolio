@@ -7,7 +7,7 @@ const Works = () => {
   return (
     <section className="works" id="works">
       <div className="works-container">
-        <h1>Works</h1>
+        <h1 className="works-h1">Works</h1>
 
         <div className="slide">
           {worksData.map((work) => (

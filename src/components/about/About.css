@@ -25,6 +25,7 @@
   background-color: #fff;
   padding: 0 0 3rem;
 }
+
 .about-texts {
   height: 100%;
   max-width: 750px;
@@ -34,7 +35,7 @@
   padding: 3rem 0rem 3rem 7rem;
   background-color: #fff;
 }
-.about h1 {
+.about-h1 {
   font-size: 2rem;
   text-shadow: 0 0 10px rgba(255, 255, 255, 1);
 

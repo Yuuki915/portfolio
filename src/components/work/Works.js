@@ -18,6 +18,7 @@ const Works = () => {
               url={work.url}
               git={work.git}
               desc={work.desc}
+              memo={work.memo}
               langs={work.langs}
             />
           ))}

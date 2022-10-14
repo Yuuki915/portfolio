@@ -23,7 +23,7 @@ const TopAnimation = () => {
         key={index}
         className={`delay${index + 1}`}
         style={{
-          animationDelay: `${index * 0.2}s`,
+          animationDelay: `${index * 0.15}s`,
         }}
       >
         {item}
@@ -72,7 +72,7 @@ const TopAnimation = () => {
       <span
         key={index}
         className={`delay${index + 1}`}
-        style={{ animationDelay: `${index * 0.5 + 6}s` }}
+        style={{ animationDelay: `${index * 0.25 + 6}s` }}
       >
         {item}
       </span>
@@ -94,7 +94,7 @@ const TopAnimation = () => {
         key={index}
         className={`delay${index + 1}`}
         style={{
-          animationDelay: `${index * 0.3 + 6}s`,
+          animationDelay: `${index * 0.15 + 6}s`,
           transform: `translate3d(
               ${index + (Math.random() * 120 - 100)}rem,
               ${index + Math.random() * 60}rem,

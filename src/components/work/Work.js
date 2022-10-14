@@ -2,7 +2,7 @@ import React from "react";
 import Lang from "./Lang";
 import "./Work.css";
 
-const Work = ({ title, src, langs, desc, url, git }) => {
+const Work = ({ title, src, langs, desc, memo, url, git }) => {
   return (
     <div className="work">
       <div className="work-container">
@@ -15,12 +15,15 @@ const Work = ({ title, src, langs, desc, url, git }) => {
 
         <div className="work-discription">
           <Lang langs={langs} />
-          <p className="text-in-work">{desc}</p>
+          <div className="text-in-work">
+            <p>{desc}</p>
+            {memo === "" ? <></> : <p className="memo">{memo}</p>}
+          </div>
         </div>
       </div>
       <div className="jump-to-pages">
         <a href={url}>
-          <div className="visit-page">Visit</div>
+          <div className="visit-page">Website</div>
         </a>
         <a href={git}>
           <div className="view-code">Code</div>

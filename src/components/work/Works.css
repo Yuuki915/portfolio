@@ -1,7 +1,7 @@
 .works {
   font-family: "Titillium Web", sans-serif;
   background-color: #e6dfcd;
-  padding: 5rem 0;
+  padding: 0 0 5rem;
 }
 .works h1 {
   font-size: 2rem;
@@ -9,6 +9,7 @@
   font-weight: 900;
   letter-spacing: 2px;
   font-family: "Parisienne", cursive;
+  margin: 5rem;
 }
 
 .works-container {
@@ -42,6 +43,7 @@
   .works {
     padding: 5rem 0;
   }
+
   .work-container {
     flex-direction: column;
   }
@@ -59,7 +61,7 @@
     width: auto;
   }
   .workimg {
-    width: 15rem;
+    width: 23rem;
   }
 
   .slide {

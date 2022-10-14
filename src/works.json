@@ -13,7 +13,8 @@
       "axios",
       "JWT"
     ],
-    "desc": "Share your favorite whatever you love to everyone!! After register or login, you can share your favorite places or shops and see other peaple's favorite. TEST ACCOUNT => username: yuyu, email: yuyu@mail.com, password: @Yuyu123 or you can just register :)"
+    "desc": "Share your favorite whatever you love to everyone!! After register or login, you can share your favorite places or shops and see other peaple's favorite.",
+    "memo": "TEST ACCOUNT => username: yuyu, email: yuyu@mail.com, password: @Yuyu123 or you can just register :)"
   },
   {
     "title": "Yukipedia",
@@ -21,7 +22,8 @@
     "git": "https://github.com/Yuuki915/city-intro",
     "img": "/imgs/yukipedia.png",
     "langs": ["React", "Contentful", "Google Maps API"],
-    "desc": "Introduction for my hometown, Fukuoka city. You can check must eat and must visit"
+    "desc": "Introduction for my hometown, Fukuoka city. You can check must eat and must visit",
+    "memo": ""
   },
   {
     "title": "COEUS",
@@ -29,7 +31,8 @@
     "git": "",
     "img": "/imgs/coueslogo.png",
     "langs": ["HTML", "CSS", "JavaScript", "PHP"],
-    "desc": "A website for sports-related product company that is offering a training set of devices that can assist coaches or even replace them at many aspects when starting to learn to when advancing your game."
+    "desc": "A website for sports-related product company that is offering a training set of devices that can assist coaches or even replace them at many aspects when starting to learn to when advancing your game.",
+    "memo": ""
   },
   {
     "title": "Totoro Quiz",
@@ -37,7 +40,8 @@
     "git": "https://github.com/Yuuki915/wmad/tree/main/WebDev-ll/0408_midproj/src",
     "img": "/imgs/totoroquiz.png",
     "langs": ["HTML", "CSS", "JavaScript", "React.js"],
-    "desc": "Check your knowledge of Totoro!"
+    "desc": "Check your knowledge of Totoro!",
+    "memo": ""
   },
 
   {
@@ -46,7 +50,8 @@
     "git": "https://github.com/Yuuki915/portfolio",
     "img": "/imgs/portforio.png",
     "langs": ["React"],
-    "desc": "My portfolio"
+    "desc": "My portfolio",
+    "memo": ""
   },
   {
     "title": "aniSearch",
@@ -62,6 +67,7 @@
       "axios",
       "GraphQL"
     ],
-    "desc": "Coming soon! Search and create your own wish list Anime. Using GraphQL."
+    "desc": "Coming soon! Search and create your own wish list Anime. Using GraphQL.",
+    "memo": ""
   }
 ]

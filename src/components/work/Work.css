@@ -5,17 +5,17 @@
 }
 
 .img-and-sitename {
-  padding: 3rem 0;
+  padding: 2rem 0;
 }
 .workimg-div {
   overflow: hidden;
-  width: 22rem;
+  /* width: 22rem; */
 }
 .work:hover .workimg {
   transform: scale(1.1);
 }
 .workimg {
-  width: 20rem;
+  max-width: 27rem;
   height: auto;
   display: inline-block;
   margin: auto 0;
@@ -67,17 +67,20 @@
   padding: 2rem 0;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .text-in-work {
-  padding: 1rem;
+  padding: 3rem;
   letter-spacing: 1px;
+}
+.memo {
+  margin: 1rem 0;
 }
 
 @media (max-width: 950px) {
   .workimg {
-    width: 100%;
+    width: 20rem;
   }
   .img-and-sitename {
     padding: 1rem;
@@ -99,6 +102,6 @@
   }
 
   .text-in-work {
-    padding: 1rem 0;
+    padding: 1rem 3rem;
   }
 }

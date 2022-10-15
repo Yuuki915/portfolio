@@ -9,7 +9,6 @@
 }
 .workimg-div {
   overflow: hidden;
-  /* width: 22rem; */
 }
 .work:hover .workimg {
   transform: scale(1.1);
@@ -52,7 +51,7 @@
 
 .work {
   margin: 1rem;
-  padding: 1.5rem;
+  padding: 1.5rem 2rem;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   background-color: #fff;
 }

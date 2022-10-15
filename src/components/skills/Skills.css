@@ -5,7 +5,7 @@
 
   margin-right: 0;
   margin-left: auto;
-  padding: 3rem 7rem 3rem 0;
+  padding: 6rem 7rem 3rem 0;
   text-align: right;
 
   display: flex;
@@ -48,7 +48,7 @@
 
 @media (max-width: 900px) {
   .skills {
-    padding: 3rem 0;
+    padding: 6rem 0;
   }
   .skills-icons {
     justify-content: center;

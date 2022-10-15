@@ -2,28 +2,31 @@
   height: auto;
   color: #aa988a;
   font-family: "Titillium Web", sans-serif;
-  position: relative;
 }
 
 .title-in-about {
   position: absolute;
-  top: 32%;
+  bottom: -50px;
   left: 0;
 
+  height: 100px;
   color: #fff;
   font-weight: 900;
   font-size: larger;
   letter-spacing: 3px;
   background-color: #9dc3bc;
 
-  margin-left: 2rem;
-  padding: 2rem 5rem;
+  display: flex;
+  align-items: center;
+  margin-left: 7rem;
+  padding: 0 5rem;
 }
 
 .about-container {
   width: 100%;
   background-color: #fff;
   padding: 0 0 3rem;
+  position: relative;
 }
 
 .about-texts {
@@ -52,6 +55,9 @@
 .text-body h2 {
   padding-bottom: 5px;
 }
+.text-body p {
+  font-size: 20px;
+}
 
 .about .footer {
   color: #4a4947;
@@ -61,53 +67,28 @@
   .about-container {
     padding: 0 0 3rem;
   }
-  .title-in-about {
-    margin-left: 7rem;
-    top: 30%;
-  }
 }
 @media (max-width: 900px) {
   .about {
     height: auto;
   }
+  .title-in-about {
+    margin-left: 3rem;
+  }
   .about-container {
-    padding: 3rem 0;
+    padding: 3rem 0 6rem;
   }
   .about-texts {
     padding: 0 3rem;
   }
-  .title-in-about {
-    padding: 1rem 4rem;
-    top: 30%;
-  }
+
   .text-body {
     padding-left: 1rem;
   }
 }
-
-@media (max-width: 735px) {
+@media (max-width: 500px) {
   .title-in-about {
-    top: 32%;
-  }
-}
-@media (max-width: 584px) {
-  .title-in-about {
-    top: 29%;
-  }
-}
-@media (max-width: 465px) {
-  .title-in-about {
-    top: 31%;
-  }
-}
-@media (max-width: 438px) {
-  .title-in-about {
-    top: 28%;
-  }
-}
-@media (max-width: 391px) {
-  .title-in-about {
-    margin: 0;
-    top: 28%;
+    margin-left: 1.5rem;
+    padding: 0 2rem;
   }
 }

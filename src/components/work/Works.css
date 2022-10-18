@@ -43,14 +43,13 @@
   .works {
     padding: 5rem 0;
   }
+  .slide {
+    margin: 0;
+  }
 
   .work-container {
     flex-direction: column;
   }
-  .workimg-div {
-    margin: 0 auto;
-  }
-
   .work-discription {
     padding: 0;
   }
@@ -58,13 +57,10 @@
     padding-bottom: 2rem;
   }
   .workimg-div {
+    margin: 0 auto;
     width: auto;
   }
   .workimg {
-    width: 23rem;
-  }
-
-  .slide {
-    margin: 0;
+    max-width: 23rem;
   }
 }

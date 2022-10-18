@@ -16,9 +16,6 @@
 .workimg {
   max-width: 27rem;
   height: auto;
-  display: inline-block;
-  margin: auto 0;
-  display: inline-block;
   transition: 0.3s;
 }
 .jump-to-pages {
@@ -79,7 +76,7 @@
 
 @media (max-width: 950px) {
   .workimg {
-    width: 20rem;
+    max-width: 20rem;
   }
   .img-and-sitename {
     padding: 1rem;
@@ -101,6 +98,6 @@
   }
 
   .text-in-work {
-    padding: 1rem 3rem;
+    padding: 1rem 0;
   }
 }

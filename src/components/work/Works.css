@@ -64,3 +64,15 @@
     max-width: 23rem;
   }
 }
+
+@media (max-width: 500px) {
+  .workimg {
+    max-width: 20rem;
+  }
+  .work {
+    padding: 1.5rem 0.5rem;
+  }
+  .img-and-sitename {
+    padding: 1rem 0;
+  }
+}

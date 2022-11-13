@@ -18,6 +18,8 @@ import {
   SiSass,
   SiTypescript,
   SiGraphql,
+  SiNextdotjs,
+  SiShopify,
 } from "react-icons/si";
 import { DiNodejs } from "react-icons/di";
 
@@ -39,6 +41,10 @@ const SkillsIcons = () => {
       <div className="icon-container">
         <SiReact className="skills-icon" />
         <p className="icon-name">React.js</p>
+      </div>
+      <div className="icon-container">
+        <SiNextdotjs className="skills-icon" />
+        <p className="icon-name">Next.js</p>
       </div>
       <div className="icon-container">
         <SiRedux className="skills-icon" />
@@ -87,6 +93,10 @@ const SkillsIcons = () => {
       <div className="icon-container">
         <SiGraphql className="skills-icon" />
         <p className="icon-name">GraphQL</p>
+      </div>
+      <div className="icon-container">
+        <SiShopify className="skills-icon" />
+        <p className="icon-name">Shopify</p>
       </div>
       <div className="icon-container">
         <SiGit className="skills-icon" />

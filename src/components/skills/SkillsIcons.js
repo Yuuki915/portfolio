@@ -20,6 +20,7 @@ import {
   SiGraphql,
   SiNextdotjs,
   SiShopify,
+  SiFigma,
 } from "react-icons/si";
 import { DiNodejs } from "react-icons/di";
 
@@ -97,6 +98,10 @@ const SkillsIcons = () => {
       <div className="icon-container">
         <SiShopify className="skills-icon" />
         <p className="icon-name">Shopify</p>
+      </div>
+      <div className="icon-container">
+        <SiFigma className="skills-icon" />
+        <p className="icon-name">Figma</p>
       </div>
       <div className="icon-container">
         <SiGit className="skills-icon" />

@@ -1,10 +1,14 @@
 import React from "react";
+import { useInView } from "react-intersection-observer";
 import Lang from "./Lang";
 import "./Work.css";
 
 const Work = ({ title, src, langs, desc, memo, url, git }) => {
+  const [ref, inView] = useInView({
+    rootMargin: "0px 0px -100px",
+  });
   return (
-    <div className="work">
+    <div ref={ref} className={`work ${inView && `work-show`}`}>
       <div className="work-container">
         <div className="img-and-sitename">
           <h2 className="sitetitle">{title}</h2>

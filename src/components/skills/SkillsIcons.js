@@ -23,10 +23,14 @@ import {
   SiFigma,
 } from "react-icons/si";
 import { DiNodejs } from "react-icons/di";
+import { useInView } from "react-intersection-observer";
 
 const SkillsIcons = () => {
+  const [ref, inView] = useInView({
+    rootMargin: "0px 0px -100px",
+  });
   return (
-    <div className="skills-icons">
+    <div ref={ref} className={`skills-icons ${inView && `icons-show`}`}>
       <div className="icon-container">
         <SiHtml5 className="skills-icon" />
         <p className="icon-name">HTML</p>

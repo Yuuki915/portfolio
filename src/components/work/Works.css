@@ -2,14 +2,25 @@
   font-family: "Titillium Web", sans-serif;
   background-color: #e6dfcd;
   padding: 0 0 5rem;
+  /* color: #aa988a; */
+  color: rgb(121 117 113);
 }
-.works h1 {
+.works-h1 {
+  color: rgb(121 117 113);
   font-size: 2rem;
   text-shadow: 0 0 10px rgb(255 255 255);
   font-weight: 900;
   letter-spacing: 2px;
-  font-family: "Parisienne", cursive;
   margin: 5rem;
+  /* font-family: "Parisienne", cursive; */
+  font-family: "Titillium Web", sans-serif;
+  transform: translateY(10px);
+  opacity: 0;
+  transition: 1s;
+}
+.works-h1-show {
+  transform: translateY(0px);
+  opacity: 1;
 }
 
 .works-container {

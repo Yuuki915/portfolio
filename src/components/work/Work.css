@@ -1,6 +1,6 @@
 .work a {
   text-decoration: none;
-  color: #555;
+  color: #aa988a;
   cursor: default;
 }
 
@@ -29,18 +29,20 @@
   padding: 0.5rem 1.5rem;
   transition: 0.5s;
   cursor: pointer;
-  color: #567948;
-  border: 1.3px solid #567948;
+  color: #9dc3bc;
+  border: 1.3px solid #9dc3bc;
 }
 
 .visit-page:hover,
 .view-code:hover {
   color: #fff;
-  background-color: #567948;
-  border: 1.3px solid #567948;
+  background-color: #9dc3bc;
+  border: 1.3px solid #9dc3bc;
 }
 
 .sitetitle {
+  color: rgb(121 117 113);
+
   margin: 2rem 0;
   letter-spacing: 1px;
   text-align: left;
@@ -51,6 +53,13 @@
   padding: 1.5rem 2rem;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   background-color: #fff;
+  transform: translateY(20px);
+  opacity: 0;
+  transition: 1s;
+}
+.work-show {
+  transform: translateY(0);
+  opacity: 1;
 }
 .work-container {
   height: auto;

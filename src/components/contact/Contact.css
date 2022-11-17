@@ -1,6 +1,7 @@
 .contact {
   height: 50vh;
-  color: #555;
+  /* color: #aa988a; */
+  color: rgb(121 117 113);
   text-align: center;
 }
 .contact-container {
@@ -11,14 +12,23 @@
   flex-direction: column;
   justify-content: center;
 }
-.contact h1 {
+.cont-h1 {
   font-size: 2rem;
   text-shadow: 0 0 10px rgba(255, 255, 255, 1);
 
   font-weight: 900;
   letter-spacing: 2px;
-  font-family: "Parisienne", cursive;
   margin: 1rem;
+  /* font-family: "Parisienne", cursive; */
+  font-family: "Titillium Web", sans-serif;
+  transform: translateY(10px);
+  opacity: 0;
+  transition: 1s;
+}
+/* show */
+.cont-h1-show {
+  transform: translateY(0px);
+  opacity: 1;
 }
 
 .contact-info {
@@ -30,7 +40,8 @@
 }
 .contact-info a {
   text-decoration: none;
-  color: #555;
+  /* color: #aa988a; */
+  color: rgb(121 117 113);
 }
 .contact-icon {
   width: 2rem;

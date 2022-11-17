@@ -1,6 +1,5 @@
-// import scrollreveal from "scrollreveal";
 import "./App.css";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import TopAnimation from "./components/animation/TopAnimation";
 
 import About from "./components/about/About";
@@ -26,33 +25,12 @@ const App = () => {
     return () => window.removeEventListener("scroll", currentPosi);
   }, [scrolledVal]);
 
-  // useEffect(() => {
-  //   const sr = scrollreveal({
-  //     origin: "top",
-  //     distance: "30px",
-  //     duration: 1000,
-  //     easing: "ease-out",
-  //     reset: true,
-  //   });
-  //   sr.reveal(
-  //     `
-  //     .text-body,
-  //     .skills-icons,
-  //     .work,
-  //     .contact-info
-  //     `,
-  //     {
-  //       opacity: 0,
-  //       interval: 500,
-  //     }
-  //   );
-  // }, []);
-
   return (
     <div className="App">
       <Header isVisible={isVisible} />
 
       <TopAnimation />
+
       <div className="app-container">
         <About />
         <Works />

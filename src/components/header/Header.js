@@ -1,11 +1,18 @@
 import React from "react";
+// import { useInView } from "react-intersection-observer";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 import "./Header.css";
 
 const Header = ({ isVisible }) => {
+  // const [ref, inView] = useInView({
+  //   rootMargin: "0px 0px -100px",
+  // });
   return (
-    <div className={isVisible ? "header visivle" : "header"}>
+    <div
+      // ref={ref}
+      className={`header ${isVisible && `visivle`}`}
+    >
       <div className="header-name" onClick={() => scroll.scrollToTop()}>
         Yuki Hori
       </div>

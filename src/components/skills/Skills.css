@@ -20,7 +20,17 @@
 
   font-weight: 900;
   letter-spacing: 2px;
-  font-family: "Parisienne", cursive;
+  /* font-family: "Parisienne", cursive; */
+  font-family: "Titillium Web", sans-serif;
+
+  transform: translateX(10px);
+  opacity: 0;
+  transition: 1s;
+}
+/* show */
+.skills-h1-show {
+  opacity: 1;
+  transform: translateX(0px);
 }
 
 .skills-icons {
@@ -30,6 +40,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: right;
+  transform: translateY(10px);
+  opacity: 0;
+  transition: 1s;
 }
 .skills-icon {
   color: #fff;
@@ -37,10 +50,17 @@
   height: 3rem;
   display: inline-block;
 }
+/* show */
+.icons-show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
 .icon-container {
   margin: 1rem;
   text-align: center;
 }
+
 .icon-name {
   font-size: 13px;
   letter-spacing: 2px;

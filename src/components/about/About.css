@@ -44,14 +44,32 @@
 
   font-weight: 900;
   letter-spacing: 2px;
-  font-family: "Parisienne", cursive;
+  /* font-family: "Parisienne", cursive; */
+  font-family: "Titillium Web", sans-serif;
+  transform: translateX(-10px);
+  opacity: 0;
+  transition: 1s;
+}
+/* show */
+.about-h1-show {
+  opacity: 1;
+  transform: translateX(0px);
 }
 
 .text-body {
   letter-spacing: 1.5px;
   line-height: 1.4rem;
   padding: 0.5rem;
+  transform: translateY(10px);
+  opacity: 0;
+  transition: 1s;
 }
+/* show */
+.texts-show {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
 .text-body h2 {
   padding-bottom: 5px;
 }

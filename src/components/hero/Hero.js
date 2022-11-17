@@ -2,30 +2,11 @@ import { SiGithub, SiGmail, SiLinkedin } from "react-icons/si";
 // import { Link } from "react-router-dom";
 import Footer from "../footer/Footer";
 import { BsFillTelephoneFill } from "react-icons/bs";
-// import { MdArrowForwardIos } from "react-icons/md";
 import "./Hero.css";
 
 const Hero = (props) => {
   return (
     <div className="hero">
-      {/* <div className="hero1">
-        <Link to={"/about"} className="hero-link">
-          About
-          <MdArrowForwardIos className="hover-icon" />
-          <MdArrowForwardIos className="hover-icon2" />
-          <MdArrowForwardIos className="hover-icon3" />
-        </Link>
-      </div>
-
-      <div className="hero2">
-        <Link to={"/works"} className="hero-link">
-          Works
-          <MdArrowForwardIos className="hover-icon" />
-          <MdArrowForwardIos className="hover-icon2" />
-          <MdArrowForwardIos className="hover-icon3" />
-        </Link>
-      </div> */}
-
       <div className="hero3">
         <div className="hero-link hero-contact-container">
           <div className="hero-contact-info">

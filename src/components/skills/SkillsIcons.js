@@ -7,10 +7,11 @@ import {
   SiGithub,
   SiHeroku,
   SiHtml5,
-  SiJava,
+  // SiJava,
   SiJavascript,
   SiMongodb,
-  SiMysql,
+  SiContentful,
+  // SiMysql,
   SiPhp,
   SiPython,
   SiReact,
@@ -64,10 +65,6 @@ const SkillsIcons = () => {
         <p className="icon-name">Node.js</p>
       </div>
       <div className="icon-container">
-        <SiPhp className="skills-icon" />
-        <p className="icon-name">PHP</p>
-      </div>
-      <div className="icon-container">
         <SiMongodb className="skills-icon" />
         <p className="icon-name">MongoDB</p>
       </div>
@@ -80,20 +77,24 @@ const SkillsIcons = () => {
         <p className="icon-name">TypeScript</p>
       </div>
       <div className="icon-container">
-        <SiBootstrap className="skills-icon" />
-        <p className="icon-name">Bootstrap</p>
+        <SiPhp className="skills-icon" />
+        <p className="icon-name">PHP</p>
       </div>
       <div className="icon-container">
         <SiPython className="skills-icon" />
         <p className="icon-name">Python</p>
       </div>
-      <div className="icon-container">
+      {/* <div className="icon-container">
         <SiMysql className="skills-icon" />
         <p className="icon-name">MySQL</p>
       </div>
       <div className="icon-container">
         <SiJava className="skills-icon" />
         <p className="icon-name">Java</p>
+      </div> */}{" "}
+      <div className="icon-container">
+        <SiBootstrap className="skills-icon" />
+        <p className="icon-name">Bootstrap</p>
       </div>
       <div className="icon-container">
         <SiGraphql className="skills-icon" />
@@ -102,6 +103,10 @@ const SkillsIcons = () => {
       <div className="icon-container">
         <SiShopify className="skills-icon" />
         <p className="icon-name">Shopify</p>
+      </div>
+      <div className="icon-container">
+        <SiContentful className="skills-icon" />
+        <p className="icon-name">Contentful</p>
       </div>
       <div className="icon-container">
         <SiFigma className="skills-icon" />

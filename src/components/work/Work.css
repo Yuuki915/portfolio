@@ -49,7 +49,7 @@
   padding: 0 2rem 1rem;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   background-color: #fff;
-  transform: translateY(20px);
+  transform: translateY(30px);
   opacity: 0;
   transition: 1s;
 }
@@ -83,20 +83,15 @@
   .workimg {
     max-width: 20rem;
   }
-  .img-and-sitename {
-    padding: 1rem;
-  }
+
   .sitetitle {
-    margin: 1rem 0 2rem;
+    margin: 2rem 0;
     text-align: center;
   }
   .visit-page,
   .view-code {
     padding: 0.7rem 1.5rem;
   }
-}
-
-@media (max-width: 950px) {
   .work-container {
     flex-direction: column;
   }

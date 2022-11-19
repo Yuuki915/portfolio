@@ -31,7 +31,7 @@
 
 .about-texts {
   height: 100%;
-  max-width: 750px;
+  max-width: 1000px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,7 +46,7 @@
   letter-spacing: 2px;
   /* font-family: "Parisienne", cursive; */
   font-family: "Titillium Web", sans-serif;
-  transform: translateX(-10px);
+  transform: translateX(-30px);
   opacity: 0;
   transition: 1s;
 }
@@ -60,7 +60,7 @@
   letter-spacing: 1.5px;
   line-height: 1.4rem;
   padding: 0.5rem;
-  transform: translateY(10px);
+  transform: translateY(30px);
   opacity: 0;
   transition: 1s;
 }

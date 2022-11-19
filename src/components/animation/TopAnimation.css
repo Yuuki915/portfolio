@@ -18,22 +18,27 @@
 
 .scroll-icon {
   position: absolute;
-  bottom: 7%;
-  right: 5%;
-  transform: translate(-5%, -7%);
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
   width: 3.5rem;
-  height: 5rem;
+  height: 7rem;
   z-index: 3;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .scroll-text {
   color: #fff;
+  /* font-size: 1.3rem; */
   text-shadow: 0 0 30px #555, 0 0 30px #555;
 
   -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
   margin: 0 auto;
   padding-bottom: 1rem;
-  animation: blink 3s infinite;
+  /* animation: blink 3s infinite; */
 }
 .scroll-bar {
   height: 100%;
@@ -60,7 +65,7 @@
     transform-origin: 0 100%;
   }
 }
-@keyframes blink {
+/* @keyframes blink {
   0%,
   60% {
     opacity: 1;
@@ -70,9 +75,9 @@
   100% {
     opacity: 0;
   }
-}
+} */
 
-@keyframes slider {
+/* @keyframes slider {
   10% {
     opacity: 1;
   }
@@ -87,7 +92,7 @@
 .top-first,
 .top-second,
 .top-third {
-  animation: slider 15s forwards;
+  animation: slider 9s forwards;
   opacity: 0;
 }
 .top-second {
@@ -95,7 +100,7 @@
 }
 .top-third {
   animation-delay: 6s;
-}
+} */
 /* slider animation end */
 
 .img-div {
@@ -113,10 +118,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+/* .text-pros1, */
+/* .text-pros2,  */
 .text-name,
-.text-posi,
-.text-pros1,
-.text-pros2 {
+.text-posi {
   width: 100vw;
   letter-spacing: 10px;
   font-size: 8rem;
@@ -132,7 +137,8 @@
   background-clip: text;
   -webkit-background-clip: text;
   filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.4));
-  text-shadow: 0 0 30px #fff, 0 0 30px #fff;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.6),
+    0 0 20px rgba(255, 255, 255, 0.6);
 }
 .text-name span {
   display: inline-block;
@@ -140,22 +146,22 @@
   opacity: 0;
 }
 .text-posi span {
-  font-size: 1rem;
+  font-size: 2.5rem;
   letter-spacing: 7px;
   transform: translate3d(10px, 10px, 10px);
-  animation: showPosi 1s forwards;
+  animation: showPosi 3s forwards;
   opacity: 0;
 }
-.text-pros1 span {
+/* .text-pros1 span {
   display: inline-block;
   animation: showPros1 0.2s forwards ease-out;
   opacity: 0;
-}
-.text-pros2 span {
+} */
+/* .text-pros2 span {
   display: inline-block;
   animation: showPros2 1s forwards ease-out;
   opacity: 0;
-}
+} */
 
 @keyframes showName {
   0% {
@@ -175,7 +181,7 @@
     transform: translateY(0);
   }
 }
-@keyframes showPros1 {
+/* @keyframes showPros1 {
   0% {
     opacity: 0;
     transform: translateY(0);
@@ -197,7 +203,7 @@
     opacity: 1;
     transform: scale(1);
   }
-}
+} */
 
 @media (max-width: 900px) {
   .ani-wrapper {
@@ -217,5 +223,9 @@
   .text-pros2 {
     height: 100%;
     font-size: 30px;
+  }
+
+  .text-posi span {
+    font-size: 1rem;
   }
 }

@@ -1,60 +1,60 @@
 import React from "react";
 import "./TopAnimation.css";
 import sunflower from "../imgs/sunflower.jpg";
-import columUmb from "../imgs/columUmb.jpg";
-import townview from "../imgs/townview.jpg";
+// import columUmb from "../imgs/columUmb.jpg";
+// import townview from "../imgs/townview.jpg";
 
 const TopAnimation = () => {
-  //   ----- first
-  const pros1 = "Motivated";
-  const pros1Arr = [];
-  const pros1Alph = pros1.split("");
+  // //   ----- first
+  // const pros1 = "Motivated";
+  // const pros1Arr = [];
+  // const pros1Alph = pros1.split("");
 
-  pros1Alph.map((item, index) => {
-    if (item === " ") {
-      return pros1Arr.push(
-        <span key={index} className={`delay${index + 1}`}>
-          &nbsp;
-        </span>
-      );
-    }
-    return pros1Arr.push(
-      <span
-        key={index}
-        className={`delay${index + 1}`}
-        style={{
-          animationDelay: `${index * 0.15}s`,
-        }}
-      >
-        {item}
-      </span>
-    );
-  });
+  // pros1Alph.map((item, index) => {
+  //   if (item === " ") {
+  //     return pros1Arr.push(
+  //       <span key={index} className={`delay${index + 1}`}>
+  //         &nbsp;
+  //       </span>
+  //     );
+  //   }
+  //   return pros1Arr.push(
+  //     <span
+  //       key={index}
+  //       className={`delay${index + 1}`}
+  //       style={{
+  //         animationDelay: `${index * 0.1}s`,
+  //       }}
+  //     >
+  //       {item}
+  //     </span>
+  //   );
+  // });
 
-  //   ----- second
-  const pros2 = "Challenging";
-  const pros2Arr = [];
-  const pros2Alph = pros2.split("");
-  pros2Alph.map((item, index) => {
-    if (item === " ") {
-      return pros2Arr.push(
-        <span key={index} className={`delay${index + 1}`}>
-          &nbsp;
-        </span>
-      );
-    }
-    return pros2Arr.push(
-      <span
-        key={index}
-        className={`delay${index + 1}`}
-        style={{
-          animationDelay: `${index * 0.2 + 3}s`,
-        }}
-      >
-        {item}
-      </span>
-    );
-  });
+  // //   ----- second
+  // const pros2 = "Challenging";
+  // const pros2Arr = [];
+  // const pros2Alph = pros2.split("");
+  // pros2Alph.map((item, index) => {
+  //   if (item === " ") {
+  //     return pros2Arr.push(
+  //       <span key={index} className={`delay${index + 1}`}>
+  //         &nbsp;
+  //       </span>
+  //     );
+  //   }
+  //   return pros2Arr.push(
+  //     <span
+  //       key={index}
+  //       className={`delay${index + 1}`}
+  //       style={{
+  //         animationDelay: `${index * 0.2 + 3}s`,
+  //       }}
+  //     >
+  //       {item}
+  //     </span>
+  //   );
+  // });
 
   //   ----- third
   const animationTextName = "YUKI HORI";
@@ -72,7 +72,7 @@ const TopAnimation = () => {
       <span
         key={index}
         className={`delay${index + 1}`}
-        style={{ animationDelay: `${index * 0.25 + 6}s` }}
+        style={{ animationDelay: `${index * 0.2}s` }}
       >
         {item}
       </span>
@@ -94,7 +94,7 @@ const TopAnimation = () => {
         key={index}
         className={`delay${index + 1}`}
         style={{
-          animationDelay: `${index * 0.15 + 6}s`,
+          animationDelay: `${index * 0.1}s`,
           transform: `translate3d(
               ${index + (Math.random() * 120 - 100)}rem,
               ${index + Math.random() * 60}rem,
@@ -113,7 +113,7 @@ const TopAnimation = () => {
         <div className="scroll-text">scroll</div>
         <div className="scroll-bar"></div>
       </div>
-      <div className="top-first">
+      {/* <div className="top-first">
         <div className="img-div">
           <img src={columUmb} alt="" className="img" />
         </div>
@@ -129,7 +129,7 @@ const TopAnimation = () => {
         <div className="texts-on-img">
           <div className="text-pros2">{pros2Arr.map((item) => item)}</div>
         </div>
-      </div>
+      </div> */}
 
       <div className="top-third">
         <div className="img-div">

@@ -20,8 +20,8 @@ const About = () => {
           <div ref={ref} className={`text-body ${inView && `texts-show`}`}>
             <h2>Hi, I am Yuki Hori.</h2>
             <p>
-              I am a Software Developer with extensive project experience and a passion
-              for learning and growth. A hard worker who has strong
+              I am a Frontend Developer with extensive project experience and a
+              passion for learning and growth. A hard worker who has strong
               communication skills to develop relationships with clients and
               coworkers.
               <br />I am excellent in working in teams and enjoy collaboration

@@ -97,11 +97,11 @@
     padding: 3rem 0 6rem;
   }
   .about-texts {
-    padding: 0 3rem;
+    padding: 0 1rem;
   }
 
   .text-body {
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
   }
 }
 @media (max-width: 500px) {

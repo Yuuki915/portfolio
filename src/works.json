@@ -1,5 +1,21 @@
 [
   {
+    "title": "éclat Interior",
+    "url": "https://eclat-interior.vercel.app/",
+    "git": "https://github.com/Yuuki915/interior-ec",
+    "img": "/imgs/eclat-interior.png",
+    "langs": [
+      "NextJs",
+      "GraphQL",
+      "Shopify",
+      "Shopify Storefront API",
+      "Figma"
+    ],
+    "desc": "E-commercer website with shopify storefront api included search function and add cart function. Started from designing wireframe with Figma and it is built by Next.js. Please visit my github/README to see its details.",
+    "memo": "",
+    "point": "E-commerce"
+  },
+  {
     "title": "Sharelog",
     "url": "https://sharelog.pages.dev/",
     "git": "https://github.com/Yuuki915/sl_frontend",
@@ -13,8 +29,9 @@
       "axios",
       "JWT"
     ],
-    "desc": "Share your favorite whatever you love to everyone!! After register or login, you can share your favorite places or shops and see other peaple's favorite.",
-    "memo": "TEST ACCOUNT => username: yuyu, email: yuyu@mail.com, password: @Yuyu123 or you can just register :)"
+    "desc": "Share your favorite whatever you love to everyone!! After register or login, you can share your favorite places or shops and see other's favorite.",
+    "memo": "TEST ACCOUNT => username: yuyu, email: yuyu@mail.com, password: @Yuyu123 or you can just register :)",
+    "point": "MERN Stack"
   },
   {
     "title": "Yukipedia",
@@ -22,7 +39,7 @@
     "git": "https://github.com/Yuuki915/city-intro",
     "img": "/imgs/yukipedia.png",
     "langs": ["React", "Contentful", "Google Maps API"],
-    "desc": "Introduction for my hometown, Fukuoka city. You can check must eat and must visit",
+    "desc": "Introduction for my hometown, Fukuoka city. You can check must eat and must visit. Used CMS, Contentful. Easy to manage for clients.",
     "memo": ""
   },
   {
@@ -32,7 +49,8 @@
     "img": "/imgs/coueslogo.png",
     "langs": ["HTML", "CSS", "JavaScript", "PHP"],
     "desc": "A website for sports-related product company that is offering a training set of devices that can assist coaches or even replace them at many aspects when starting to learn to when advancing your game.",
-    "memo": ""
+    "memo": "",
+    "point": "Group project"
   },
   {
     "title": "Totoro Quiz",

@@ -26,6 +26,7 @@ const Works = () => {
               desc={work.desc}
               memo={work.memo}
               langs={work.langs}
+              point={work.point}
             />
           ))}
         </div>

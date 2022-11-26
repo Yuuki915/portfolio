@@ -36,13 +36,6 @@
   margin: 0 6rem;
 }
 
-.jump-to-pages {
-  display: flex;
-  justify-content: center;
-  transition: 0.5s;
-  padding-bottom: 4rem;
-}
-
 @media (max-width: 950px) {
   .slide {
     flex-direction: column;
@@ -63,19 +56,6 @@
   }
   .works-h1 {
     margin: 3rem 0;
-  }
-  .work-container {
-    flex-direction: column;
-  }
-  .jump-to-pages {
-    padding-bottom: 2rem;
-  }
-  .workimg-div {
-    margin: 0 auto;
-    width: auto;
-  }
-  .workimg {
-    max-width: 23rem;
   }
 }
 

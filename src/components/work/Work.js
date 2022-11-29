@@ -16,7 +16,7 @@ const Work = ({ title, src, langs, desc, memo, url, git, point }) => {
             <div className="workimg-div">
               <img className="workimg" src={src} alt="" />
             </div>
-            {point !== undefined ? <div class="point">{point}</div> : <></>}
+            {point !== undefined ? <div className="point">{point}</div> : <></>}
           </div>
 
           <div className="work-discription">

@@ -27,6 +27,13 @@ const Header = ({ isVisible }) => {
         <Link to="contact" smooth={true} duration={500} className="linktag">
           <p className="header-link">Contact</p>
         </Link>
+        <a
+          href="/imgs/YukiHori_resume.pdf"
+          target="_blank"
+          //  className="linktag"
+        >
+          <p className="header-link resume">Resume</p>
+        </a>
       </div>
     </div>
   );

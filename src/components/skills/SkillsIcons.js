@@ -20,6 +20,7 @@ import {
   SiTypescript,
   SiGraphql,
   SiNextdotjs,
+  SiVuedotjs,
   SiShopify,
   SiFigma,
 } from "react-icons/si";
@@ -51,6 +52,10 @@ const SkillsIcons = () => {
       <div className="icon-container">
         <SiNextdotjs className="skills-icon" />
         <p className="icon-name">Next.js</p>
+      </div>
+      <div className="icon-container">
+        <SiVuedotjs className="skills-icon" />
+        <p className="icon-name">Vue.js</p>
       </div>
       <div className="icon-container">
         <SiRedux className="skills-icon" />

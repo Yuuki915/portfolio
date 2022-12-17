@@ -28,10 +28,10 @@ const Work = ({ title, src, langs, desc, memo, url, git, point }) => {
           </div>
         </div>
         <div className="jump-to-pages">
-          <a href={url}>
+          <a href={url} target="_blank" rel="noopener noreferrer">
             <div className="visit-page">Website</div>
           </a>
-          <a href={git}>
+          <a href={git} target="_blank" rel="noopener noreferrer">
             <div className="view-code">Code</div>
           </a>
         </div>

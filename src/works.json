@@ -53,6 +53,24 @@
     "point": "Group project"
   },
   {
+    "title": "aniSearch",
+    "url": "https://anisearch.pages.dev/",
+    "git": "https://github.com/Yuuki915/anisearch",
+    "img": "/imgs/aniSearch.png",
+    "langs": [
+      "React",
+      "NodeJs",
+      "MongoDB",
+      "Express",
+      "Mongoose",
+      "axios",
+      "GraphQL",
+      "Apollo"
+    ],
+    "desc": "Do you love Anime? This is a website Anime search where are all animes broadcasted in 2016 - 2022. There are search function which you can toggle searching language, find anime with years and seasons and favorite list function. Everything will be listed the field below.",
+    "memo": ""
+  },
+  {
     "title": "Totoro Quiz",
     "url": "https://ghibliquiz.netlify.app",
     "git": "https://github.com/Yuuki915/wmad/tree/main/WebDev-ll/0408_midproj/src",
@@ -69,23 +87,6 @@
     "img": "/imgs/portforio.png",
     "langs": ["React"],
     "desc": "My portfolio",
-    "memo": ""
-  },
-  {
-    "title": "aniSearch",
-    "url": "",
-    "git": "",
-    "img": "/imgs/aniSearch.png",
-    "langs": [
-      "React",
-      "NodeJs",
-      "MongoDB",
-      "Express",
-      "Mongoose",
-      "axios",
-      "GraphQL"
-    ],
-    "desc": "Coming soon! Search and create your own wish list Anime. Using GraphQL.",
     "memo": ""
   }
 ]

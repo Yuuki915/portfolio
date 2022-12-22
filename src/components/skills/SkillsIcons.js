@@ -12,15 +12,15 @@ import {
   SiMongodb,
   SiContentful,
   // SiMysql,
-  SiPhp,
-  SiPython,
+  // SiPhp,
+  // SiPython,
   SiReact,
-  SiRedux,
+  // SiRedux,
   SiSass,
   SiTypescript,
   SiGraphql,
   SiNextdotjs,
-  SiVuedotjs,
+  // SiVuedotjs,
   SiShopify,
   SiFigma,
 } from "react-icons/si";
@@ -53,14 +53,14 @@ const SkillsIcons = () => {
         <SiNextdotjs className="skills-icon" />
         <p className="icon-name">Next.js</p>
       </div>
-      <div className="icon-container">
+      {/* <div className="icon-container">
         <SiVuedotjs className="skills-icon" />
         <p className="icon-name">Vue.js</p>
-      </div>
-      <div className="icon-container">
+      </div> */}
+      {/* <div className="icon-container">
         <SiRedux className="skills-icon" />
         <p className="icon-name">Redux</p>
-      </div>
+      </div> */}
       <div className="icon-container">
         <SiSass className="skills-icon" />
         <p className="icon-name">Sass</p>
@@ -81,14 +81,14 @@ const SkillsIcons = () => {
         <SiTypescript className="skills-icon" />
         <p className="icon-name">TypeScript</p>
       </div>
-      <div className="icon-container">
+      {/* <div className="icon-container">
         <SiPhp className="skills-icon" />
         <p className="icon-name">PHP</p>
       </div>
       <div className="icon-container">
         <SiPython className="skills-icon" />
         <p className="icon-name">Python</p>
-      </div>
+      </div> */}
       {/* <div className="icon-container">
         <SiMysql className="skills-icon" />
         <p className="icon-name">MySQL</p>

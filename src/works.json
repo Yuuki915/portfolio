@@ -81,10 +81,10 @@
   },
 
   {
-    "title": "Portforio",
-    "url": "https://yukihori.pages.dev/works",
+    "title": "Portfolio",
+    "url": "https://yukihori.vercel.app/",
     "git": "https://github.com/Yuuki915/portfolio",
-    "img": "/imgs/portforio.png",
+    "img": "/imgs/portfolio.png",
     "langs": ["React"],
     "desc": "My portfolio",
     "memo": ""

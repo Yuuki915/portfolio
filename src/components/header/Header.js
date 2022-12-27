@@ -28,7 +28,7 @@ const Header = ({ isVisible }) => {
           <p className="header-link">Contact</p>
         </Link>
         <a
-          href="/imgs/YukiHori_resume.pdf"
+          href="/imgs/YukiHori.pdf"
           target="_blank"
           //  className="linktag"
         >

@@ -20,14 +20,16 @@ const About = () => {
           <div ref={ref} className={`text-body ${inView && `texts-show`}`}>
             <h2>Hi, I am Yuki Hori.</h2>
             <p>
-              I am a Software Developer with extensive project experience and a
-              passion for learning and growth. A hard worker who has strong
-              communication skills to develop relationships with clients and
-              coworkers.
-              <br />I am excellent in working in teams and enjoy collaboration
+              Frontend developer who is proficient in Frontend development with
+              JavaScript and React but also familiar with backend stacks such as
+              Node.js, and also has took part to connect GraphQL mock API and
+              frontend.
+              <br />I always work with a collaborative communication and have a
+              passion for learning and growth.
+              {/* <br />I am excellent in working in teams and enjoy collaboration
               with peers; Also, I am confident in the development of large-scale
               front-end projects such as e-commerce sites and large-scale apps.
-              I will do my best to deliver pleasing and modern interfaces.
+              I will do my best to deliver pleasing and modern interfaces. */}
             </p>
           </div>
         </div>

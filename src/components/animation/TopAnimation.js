@@ -78,7 +78,7 @@ const TopAnimation = () => {
       </span>
     );
   });
-  const animationTextPosi = "Software Developer";
+  const animationTextPosi = "Frontend Developer";
   const posiArr = [];
   const posiAlph = animationTextPosi.split("");
   posiAlph.map((item, index) => {

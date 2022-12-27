@@ -13,8 +13,10 @@ a {
 }
 
 .App {
+  width: 100vw;
   height: auto;
+  overflow: hidden;
 }
 .app-container {
-  width: 100vw;
+  /* width: 100vw; */
 }

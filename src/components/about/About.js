@@ -20,10 +20,9 @@ const About = () => {
           <div ref={ref} className={`text-body ${inView && `texts-show`}`}>
             <h2>Hi, I am Yuki Hori.</h2>
             <p>
-              Frontend developer who is proficient in Frontend development with
-              JavaScript and React but also familiar with backend stacks such as
-              Node.js, and also has took part to connect GraphQL mock API and
-              frontend.
+              Frontend developer who is proficient in JavaScript and React but
+              also familiar with backend stacks such as Node.js, and also has
+              took part to connect GraphQL mock API and frontend.
               <br />I always work with a collaborative communication and have a
               passion for learning and growth.
               {/* <br />I am excellent in working in teams and enjoy collaboration

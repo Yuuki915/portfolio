@@ -29,7 +29,7 @@
       "axios",
       "JWT"
     ],
-    "desc": "Share your favorite whatever you love to everyone!! After register or login, you can share your favorite places or shops and see other's favorite.",
+    "desc": "Share your favorite whatever you love to everyone!! After registering or login, you can share your favorite places or shops and see others' favorites.",
     "memo": "TEST ACCOUNT => username: yuyu, email: yuyu@mail.com, password: @Yuyu123 or you can just register :)",
     "point": "Full Stack"
   },
@@ -39,7 +39,7 @@
     "git": "https://github.com/Yuuki915/city-intro",
     "img": "/imgs/yukipedia.png",
     "langs": ["React", "Contentful", "Google Maps API"],
-    "desc": "Introduction for my hometown, Fukuoka city. You can check must eat and must visit. Used CMS, Contentful. Easy to manage for clients.",
+    "desc": "Introduction for my hometown, Fukuoka city. You can check the must eat and must visit. Used CMS, Contentful. Easy to manage for clients.",
     "memo": ""
   },
   {

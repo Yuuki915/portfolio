@@ -45,7 +45,7 @@
   {
     "title": "COEUS",
     "url": "http://coeustechs.com/",
-    "git": "",
+    "git": "https://github.com/Yuuki915/coeus_project",
     "img": "/imgs/coueslogo.png",
     "langs": ["HTML", "CSS", "JavaScript", "PHP"],
     "desc": "A website for sports-related product company that is offering a training set of devices that can assist coaches or even replace them at many aspects when starting to learn to when advancing your game.",

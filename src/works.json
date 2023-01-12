@@ -3,7 +3,7 @@
     "title": "éclat Interior",
     "url": "https://eclat-interior.vercel.app/",
     "git": "https://github.com/Yuuki915/interior-ec",
-    "img": "/imgs/eclat-interior.png",
+    "img": "/imgs/eclat.gif",
     "langs": [
       "NextJs",
       "GraphQL",
@@ -19,7 +19,7 @@
     "title": "Sharelog",
     "url": "https://sharelog.pages.dev/",
     "git": "https://github.com/Yuuki915/sl_frontend",
-    "img": "/imgs/sharelog.png",
+    "img": "/imgs/sharelog.gif",
     "langs": [
       "React",
       "NodeJs",
@@ -84,7 +84,7 @@
     "title": "Portfolio",
     "url": "https://yukihori.vercel.app/",
     "git": "https://github.com/Yuuki915/portfolio",
-    "img": "/imgs/portfolio.png",
+    "img": "/imgs/portfolio.gif",
     "langs": ["React"],
     "desc": "My portfolio",
     "memo": ""

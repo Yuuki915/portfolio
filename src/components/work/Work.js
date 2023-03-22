@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useInView } from "react-intersection-observer";
+import { LangToggleContext } from "../../context/langToggleContext";
 import Lang from "./Lang";
 import "./Work.css";
 
-const Work = ({ title, src, langs, desc, memo, url, git, point }) => {
+const Work = ({ title, src, langs, desc, descJP, memo, url, git, point }) => {
   const [ref, inView] = useInView({
     rootMargin: "0px 0px -100px",
   });
+  const { langToggle } = useContext(LangToggleContext);
+
   return (
     <div ref={ref} className={`work ${inView && `work-show`}`}>
       <div className="work-wrapper">
@@ -22,7 +25,7 @@ const Work = ({ title, src, langs, desc, memo, url, git, point }) => {
           <div className="work-discription">
             <Lang langs={langs} />
             <div className="text-in-work">
-              <p>{desc}</p>
+              {langToggle ? <p>{descJP}</p> : <p>{desc}</p>}
               {memo === "" ? <></> : <p className="memo">{memo}</p>}
             </div>
           </div>

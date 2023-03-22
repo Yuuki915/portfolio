@@ -24,6 +24,7 @@ const Works = () => {
               url={work.url}
               git={work.git}
               desc={work.desc}
+              descJP={work.descJP}
               memo={work.memo}
               langs={work.langs}
               point={work.point}

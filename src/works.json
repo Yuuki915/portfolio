@@ -12,6 +12,7 @@
       "Figma"
     ],
     "desc": "E-commerce website with shopify storefront api included search function and add cart function. Started from designing wireframe with Figma and it is built by Next.js. Please visit my github/README to see its details.",
+    "descJP": "Shopify storefront APIを使った検索機能やカート追加機能付きのE-commerce のウェブサイト。Figmaを使ってデザインをし、ライブラリにはNext.jsを使用。GitHubに詳細を載せているのでご覧ください。",
     "memo": "",
     "point": "E-commerce"
   },
@@ -30,7 +31,8 @@
       "JWT"
     ],
     "desc": "Share your favorite whatever you love to everyone!! After registering or login, you can share your favorite places or shops and see others' favorites.",
-    "memo": "TEST ACCOUNT => username: yuyu, email: yuyu@mail.com, password: @Yuyu123 or you can just register :)",
+    "descJP": "お気に入りを閲覧 / シェアできるウェブサイト。React, Node.js, MongoDB, Expressを使ったフルスタックアプリ。登録 / ログイン後には、お気に入りの映画や食べ物など書き込み・編集・削除することができる。テストアカウント有。",
+    "memo": "TEST ACCOUNT => username: yuyu, email: yuyu@mail.com, password: @Yuyu123",
     "point": "Full Stack"
   },
   {
@@ -40,6 +42,7 @@
     "img": "/imgs/yukipedia.png",
     "langs": ["React", "Contentful", "Google Maps API"],
     "desc": "Introduction for my hometown, Fukuoka city. You can check the must eat and must visit. Used CMS, Contentful. Easy to manage for clients.",
+    "descJP": "故郷福岡の紹介ウェブサイト。おすすめの食べもの、場所などの情報を掲載。Contentful (CMS)を使い、情報の変更等管理しやすく設定。",
     "memo": ""
   },
   {
@@ -49,6 +52,7 @@
     "img": "/imgs/coueslogo.png",
     "langs": ["HTML", "CSS", "JavaScript", "PHP"],
     "desc": "A website for sports-related product company that is offering a training set of devices that can assist coaches or even replace them at many aspects when starting to learn to when advancing your game.",
+    "descJP": "指導者の手助けをしたり、スポーツを始めたばかりの人を助けるトレーニングデバイスを提供しているスポーツ関連製品会社のWeb サイト。",
     "memo": "",
     "point": "Group project"
   },
@@ -68,6 +72,7 @@
       "Apollo"
     ],
     "desc": "Do you love Anime? This is a website Anime search where are all animes broadcasted in 2016 - 2022. There are search function which you can toggle searching language, find anime with years and seasons and favorite list function. Everything will be listed the field below.",
+    "descJP": "アニメは好きですか？2016−2022年のTVアニメを検索できるウェブサイト。ひらがな / ローマ字での検索ができるほか、一覧で年別、シーズン別でも検索可。",
     "memo": ""
   },
   {
@@ -77,6 +82,7 @@
     "img": "/imgs/totoroquiz.png",
     "langs": ["HTML", "CSS", "JavaScript", "React.js"],
     "desc": "Check your knowledge of Totoro!",
+    "descJP": "となりのトトロクイズ、挑戦してみて！（出題は英語）",
     "memo": ""
   },
 
@@ -87,6 +93,7 @@
     "img": "/imgs/portfolio.gif",
     "langs": ["React"],
     "desc": "My portfolio",
+    "descJP": "Reactを使ったポートフォリオ。TopのアニメーションはCSSで記述。",
     "memo": ""
   }
 ]
